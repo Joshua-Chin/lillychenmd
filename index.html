@@ -3,9 +3,6 @@
 <head>
 	<title>Lilly Chen M.D.</title>
 	
-	<meta
-		http-equiv="content-security-policy"
-		content="default-src 'self'; style-src https://cdn.jsdelivr.net; script-src https://cdn.jsdelivr.net; img-src 'self' data:">
 	<meta http-equiv="content-type" content="text/html" charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,8 +38,17 @@
 		<!-- About Dr. Lilly Chen -->
 		<h1 class="display-4 text-center">Meet Lilly Chen M.D.</h1>
 		<figure class="figure text-center w-100">
-			<img src="portrait.jpg" class="figure-img img-fluid rounded" alt="A portrait of Dr. Lilly Chen">
-			<figcaption class="figure-caption w-50 mx-auto">
+			<img src="portrait-lg.webp"
+			srcset="
+				portrait-sm.webp 750w,
+				portrait-md.webp 1500w,
+				portrait-lg.webp 3000w"
+			sizes="
+				(min-width: 4096px) 3000px, 75vw"
+			height="3000" width="2000"
+			class="figure-img img-fluid rounded" style="max-width: 44%;"
+			alt="A portrait of Dr. Lilly Chen">
+			<figcaption class="figure-caption w-75 mx-auto">
 				Dr. Chen is a dedicated and passionate plastic surgeon with over 20 years of exerience in cosmetic and breast reconstructive surgery.
 			</figcaption>
 		</figure>
@@ -56,8 +62,17 @@
 		<!-- Dr. Lilly Chen's specialties -->
 		<h1 class="display-4 text-center">Dr. Lilly Chen's Specialties</h1>
 		<figure class="figure text-center w-100">
-			<img src="surgery.jpg" class="figure-img img-fluid rounded" alt="Dr. Lilly Chen in the operating room">
-			<figcaption class="figure-caption w-50 mx-auto">
+			<img src="surgery-lg.webp"
+			srcset="
+				surgery-sm.webp 750w,
+				surgery-md.webp 1500w,
+				surgery-lg.webp 3000w"
+			sizes="
+				(min-width: 4096px) 3000px, 75vw"
+			height="2000" width="3000"
+			class="figure-img img-fluid rounded" 
+			alt="Dr. Lilly Chen in the operating room">
+			<figcaption class="figure-caption w-75 mx-auto">
 				Utilizing a combination of precise techniques and artistry, Dr. Chen explores and offers the best possible cutting edge cosmetic and reconstructive surgery options.
 			</figcaption>
 		</figure>
@@ -74,8 +89,17 @@
 		<!-- Dr. Lilly Chen's Background -->
 		<h1 class="display-4 text-center">Dr. Lilly Chen's Background</h1>
 		<figure class="figure text-center w-100">
-			<img src="office.jpg" class="figure-img img-fluid rounded" alt="Dr. Lilly Chen's office">
-			<figcaption class="figure-caption w-50 mx-auto">
+			<img src="office-lg.webp"
+				srcset="
+					office-sm.webp 750w,
+					office-md.webp 1500w,
+					office-lg.webp 3000w"
+				sizes="
+					(min-width: 4096px) 3000px, 75vw"
+				height="2000" width="3000"
+				class="figure-img img-fluid rounded" 
+				alt="Dr. Lilly Chen's office">
+			<figcaption class="figure-caption w-75 mx-auto">
 				The office is located on a quiet, tree-lined street on the eastside of mid-town Manhattan
 			</figcaption>
 		</figure>
